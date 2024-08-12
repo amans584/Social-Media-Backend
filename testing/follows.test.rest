@@ -1,0 +1,7 @@
+POST http://localhost:5000/follows/toggle
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJrdXNoMjcwOSIsInVzZXJuYW1lIjoia3VzaGFncmEgQWdhcndhbCIsImVtYWlsIjoia3VzaEBnbWFpbC5jb20iLCJpYXQiOjE3MTYwNjE5NzEsImV4cCI6MTcxNjA3NjM3MX0.8Y-wHSgW-E_MneEWXbPGijBPksOSEuhDbG_7-VB8FIY
+
+{
+    "followed_uid": "amans584"
+}

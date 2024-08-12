@@ -1,0 +1,14 @@
+
+POST http://localhost:5000/posts/create
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJhbWFuczU4NCIsInVzZXJuYW1lIjoiQW1hbiBTaW5naCIsImVtYWlsIjoiYW1hbnM1ODRAZ21haWwuY29tIiwiaWF0IjoxNzE2NDk1MDgwLCJleHAiOjE3MTY2Njc4ODB9.7iLfpS33Tp_TBPNhTy5lzffiSciylxDuJ8ahYoXEDFM
+
+{
+    "content": "This is post XYZ"
+}
+
+###
+
+DELETE http://localhost:5000/posts/delete/78349602-3895-4ca1-b31b-58adcd166714
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJrdXNoMjcwOSIsImVtYWlsIjoia3VzaEBnbWFpbC5jb20iLCJpYXQiOjE3MTYwMTE5MTcsImV4cCI6MTcxNjAxMzcxN30.DOAtomisTmE7wwhLuLVme-Tu1BIy283DVEquyZ0gX-s

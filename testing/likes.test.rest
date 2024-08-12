@@ -1,0 +1,7 @@
+POST http://localhost:5000/likes/toggle
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJrdXNoMjcwOSIsInVzZXJuYW1lIjoia3VzaGFncmEgQWdhcndhbCIsImVtYWlsIjoia3VzaEBnbWFpbC5jb20iLCJpYXQiOjE3MTYwNjE5NzEsImV4cCI6MTcxNjA3NjM3MX0.8Y-wHSgW-E_MneEWXbPGijBPksOSEuhDbG_7-VB8FIY
+
+{
+    "pid": "4078d265-d4da-4a4c-9dad-235686091388"
+}
